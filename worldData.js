@@ -12,7 +12,7 @@ export const worldData = {
     <br><br>
     The <em>smell</em> in the <em>bedroom</em> is a mix of stale sweat and cigarette ash; there's something else you can't quite place yet.
     <br><br>
-    You nervously <em>feel</em> around the <em>bed</em> to confirm you're alone. The mattress is worn and without sheets, the blanket little more than a stained rag. The <em>taste</em> in the air is copper.
+    You nervously <em>touch</em> around the <em>bed</em> to confirm you're alone. The mattress is worn and without sheets, the blanket little more than a stained rag. The <em>taste</em> in the air is copper.
     <br><br>
     You rise from the <em>bed</em> and think you should <em>go</em> to the <em>door</em> or try to <em>take</em> something useful.`,
 
