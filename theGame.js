@@ -36,11 +36,11 @@ submitButton.addEventListener("click", () => {
             outputText = interaction;
         }
 
-        scrollBox.insertAdjacentHTML('beforeend', `<br><p><em><strong>${verb} ${noun}</strong></em></p><p>${outputText}</p>`);
+        scrollBox.insertAdjacentHTML('beforeend', `<br><p><em>${verb} ${noun}</em></p><p>${outputText}</p>`);
 
         const newRoomKey = worldData.currentRoom.toLowerCase();
         if (newRoomKey !== roomKey) {
-            scrollBox.insertAdjacentHTML('beforeend', `<br><br><p><strong>${worldData[newRoomKey].description}</strong></p><br><br>`);
+            scrollBox.insertAdjacentHTML('beforeend', `<br><p>${worldData[newRoomKey].description}</p><br>`);
         }
 
     } else {
