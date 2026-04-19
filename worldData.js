@@ -172,8 +172,10 @@ livingroom: {
 },
 
 bathroom: {
-        description: `A small, tiled room. It smells of bleach and something far worse.`,
-Look: `A small, tiled room. It smells of bleach and something far worse.`,
+        description: `A small, tiled room. It smells of dank and something far worse. behind you is the door back to the living room. A filthy bathtub, a suspect toilet, a dripping sink and a mirror that looks like it opens as a cabinet.`,
+
+        look: `A small, tiled room. It smells of dank and something far worse. behind you is the door back to the living room. A filthy bathtub, a suspect toilet, a dripping sink and a mirror that looks like it opens as a cabinet.`,
+
 door: {
             look: `The way back to the living room.`,
             open: function() {
