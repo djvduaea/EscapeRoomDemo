@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center;     /* Center horizontally */
+  min-height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#scrollBox {
+  width: 85%;
+  max-width: 500px;
+  height: 400px;
+  border: 2px solid #333;
+  padding: 10px;
+  background: #111;
+  overflow-y: scroll; /* Force a scrollbar to appear */
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+p {
+  min-height: min-content;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+#submitButton {
+  padding: 10px 20px;
+  background-color: #eee;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+#button:hover {
+  background-color: #ccc;
+}
+
+em {
+  color: green;
+}
+
+h1 {
+  margin: 0;
+}
+
+H2 {
+  font-style: italic;
+}
