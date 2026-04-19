@@ -60,7 +60,7 @@ export const worldData = {
             look: `A ceiling fan, wobbling slightly on its mount. One good turn of a screw would probably fix it.`,
             listen: `The rhythmic knocking sound is starting to bug you.`,
             smell: `It smells like it sounds.`,
-            touch: `It nearly chops your finhers off. What a stupid idea that was just now.`,
+            touch: `It nearly chops your fingers off. What a stupid idea that was just now.`,
             taste: `Not recommended.`,
             open: `It's a fan, not a container.`,
             take: `It's bolted to the ceiling, though it is tempting to tear it off jist to shut it up.`
@@ -79,8 +79,8 @@ export const worldData = {
     },
 
 livingroom: {
-    description: `A cramped living area. A small kitchen sits in the corner, and a hallway leads to the <em>bathroom door</em>. Behind you is the <em>bedroom door</em> you just came through.`,
-    look: `A cramped living area. A small kitchen sits in the corner, and a hallway leads to the <em>bathroom door</em>. Behind you is the <em>bedroom door</em> you just came through.`,
+    description: `A cramped living area. A small <em>kitchenette</em> sits in the corner, and a hallway leads to the <em>bathroom door</em>. Behind you is the <em>bedroom door</em> you just came through. The <em>front door</em> is locked, it stands between you and freedom.`,
+    look: `A cramped living area. A small <em>kitchenette</em> sits in the corner, and a hallway leads to the <em>bathroom door</em>. Behind you is the <em>bedroom door</em> you just came through.`,
 
     "bedroom door": {
         look: `The door back to the bedroom, it looks pretty much the same from this side.`,
@@ -108,8 +108,8 @@ livingroom: {
         take: `You think about taking it to the bedroom door, in case they get lonely.`
     },
 
-    kitchen: {
-        look: `A small counter with a rusted sink and a humming fridge.`,
+    kitchenette: {
+        look: `A small counter with a rusted sink and a humming <em>fridge</em>.`,
         listen: `The fridge is rattling like it's dying.`,
         smell: `Rotting meat, origin unknown.`,
         touch: `Greasy. Filthy.`,
@@ -120,7 +120,7 @@ livingroom: {
 
     fridge: {
         look: `A white fridge covered in grime.`,
-        open: `The fridge part is empty but for some raw mystery meat. The freezer is closed.`,
+        open: `The fridge part is empty but for some raw mystery meat. The <em>freezer</> is closed.`,
         take: `You aren't that hungry.`,
         smell: `Rotten.`,
         taste: `So many gross things for you to taste today. Your cup truly floweth over.`,
@@ -129,7 +129,7 @@ livingroom: {
 
     freezer: {
         look: `The top part of the fridge. It's transparent but frosted over.`,
-        open: `You open the freezer. A wave of frost-covered air hits you. you can see something that looks like a weird melon`,
+        open: `You open the freezer. A wave of frost-covered air hits you. you can see something that looks like a weird <em>melon</>`,
         take: `Take the freezer door? No. Bad. Do better.`,
         taste: `Frosty and refreshing`,
         smell: `the cold air feels good up your nostrils.`,
@@ -172,7 +172,7 @@ livingroom: {
 },
 
 bathroom: {
-        description: `A small, tiled room. It smells of dank and something far worse. behind you is the door back to the living room. A filthy bathtub, a suspect toilet, a dripping sink and a mirror that looks like it opens as a cabinet.`,
+        description: `A small, tiled room. It smells of dank and something far worse. behind you is the <em>door</em> back to the living room. A filthy <em>bathtub</em>, a suspect <em>toilet</>, a dripping <em>sink</em> and a <em>mirror</em> that looks like it opens as a cabinet.`,
 
         look: `A small, tiled room. It smells of dank and something far worse. behind you is the door back to the living room. A filthy bathtub, a suspect toilet, a dripping sink and a mirror that looks like it opens as a cabinet.`,
 
