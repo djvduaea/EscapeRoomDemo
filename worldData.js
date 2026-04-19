@@ -172,7 +172,7 @@ livingroom: {
 },
 
 bathroom: {
-        description: `A small, tiled room. It smells of dank and something far worse. behind you is the <em>door</em> back to the living room. A filthy <em>bathtub</em>, a suspect <em>toilet</>, a dripping <em>sink</em> and a <em>mirror</em> that looks like it opens as a cabinet.`,
+        description: `A small, tiled room. It smells of dank and something far worse. behind you is the <em>door</em> back to the living room. A filthy <em>bathtub</em>, a suspect <em>toilet</em>, a dripping <em>sink</em> and a <em>mirror</em> that looks like it opens as a cabinet.`,
 
         look: `A small, tiled room. It smells of dank and something far worse. behind you is the door back to the living room. A filthy bathtub, a suspect toilet, a dripping sink and a mirror that looks like it opens as a cabinet.`,
 
