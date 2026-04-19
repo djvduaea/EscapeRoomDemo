@@ -1,5 +1,5 @@
 export const worldData = {
-
+ 
     // .1 status tracker
     currentRoom: `bedroom`,
     hasScrewdriver: false,
