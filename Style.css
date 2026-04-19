@@ -12,8 +12,7 @@ body {
 
 #scrollBox {
   width: 85%;
-  max-width: 500px;
-  height: 400px;
+  height: 500px;
   border: 2px solid #333;
   padding: 10px;
   background: #111;
