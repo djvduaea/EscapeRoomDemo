@@ -3,38 +3,52 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center vertically */
-  align-items: center;     /* Center horizontally */
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
   margin: 0;
   font-family: sans-serif;
+  /* Prevents horizontal scrolling issues on mobile */
+  overflow-x: hidden; 
 }
 
 #scrollBox {
-  width: 85%;
-  height: 500px;
+  /* Use relative units for better responsiveness */
+  width: 90vw; 
+  max-width: 500px;
+  /* Use a percentage or viewport height for mobile */
+  height: 50vh; 
   border: 2px solid #333;
-  padding: 10px;
+  padding: 15px;
   background: #111;
-  overflow-y: scroll; /* Force a scrollbar to appear */
+  overflow-y: auto; 
   display: flex;
   flex-direction: column;
   color: white;
-}
-
-p {
-  min-height: min-content;
-  margin: 0;
-  flex-shrink: 0;
+  box-sizing: border-box; /* Ensures padding doesn't increase width */
 }
 
 #submitButton {
-  padding: 10px 20px;
+  /* Increased size for better touch accessibility */
+  padding: 15px 30px; 
+  margin-top: 20px;
   background-color: #eee;
   border: none;
   cursor: pointer;
   font-weight: bold;
   border-radius: 4px;
+  /* Prevents iOS tap highlight color */
+  -webkit-tap-highlight-color: transparent; 
+}
+
+#submitButton:hover {
+  background-color: #ccc;
+}
+
+/* Ensure images or large text elements don't break the container */
+img, p {
+  max-width: 100%;
+  word-wrap: break-word;
 }
 
 #button:hover {
