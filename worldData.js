@@ -14,11 +14,15 @@ export const worldData = {
     <br><br>
     You nervously <em>touch</em> around the <em>bed</em> to confirm you're alone. The mattress is worn and without sheets, the blanket little more than a stained rag. The <em>taste</em> in the air is copper.
     <br><br>
-    You rise from the <em>bed</em> and think you should <em>go</em> to the <em>door</em> or try to <em>take</em> something useful.`,
+    You rise from the <em>bed</em> and think you should <em>open</em> the <em>door</em> or try to <em>take</em> something useful.<br>
+    That said, if you ever get really confused you can always say <em>help me</em> just in case the green text wasn't enough of a clue.`,
 
     //3. Rooms, look and description doubled for now
     bedroom: {
-        description: `You're back in the bedroom with the familiar door, fan and bed to look at.`,
+     me: {
+      look: `you can input commands using the following verbs: <ul><li>look<li>listen<li>touch<li>smell<li>taste<li>open<li>take</ul><br>Combine these with the various objects you "see" in these rooms. For example, try "look bed", "touch fan" or maybe open door when you're ready to go to a new room. You're goal is to find the way out of this apartment.`
+     },
+      description: `You're back in the bedroom with the familiar door, fan and bed to look at.`,
         Look: `You're back in the bedroom with the familiar door, fan and bed to look at.`,
         walls: {
             look: `The wallpaper is peeling and covered in the yellowing stains of cigarette smoke.`,
@@ -79,6 +83,9 @@ export const worldData = {
     },
 
 livingroom: {
+ me: {
+      look: `you can input commands using the following verbs: <ul><li>look<li>listen<li>touch<li>smell<li>taste<li>open<li>take</ul><br>Combine these with the various objects you "see" in these rooms. For example, try "look bed", "touch fan" or maybe open door when you're ready to go to a new room. You're goal is to find the way out of this apartment.`
+     },
     description: `A cramped living area. A small <em>kitchenette</em> sits in the corner, and a hallway leads to the <em>bathroom door</em>. Behind you is the <em>bedroom door</em> you just came through. The <em>front door</em> is locked, it stands between you and freedom.`,
     look: `A cramped living area. A small <em>kitchenette</em> sits in the corner, and a hallway leads to the <em>bathroom door</em>. Behind you is the <em>bedroom door</em> you just came through.`,
 
@@ -172,6 +179,9 @@ livingroom: {
 },
 
 bathroom: {
+ me: {
+      look: `you can input commands using the following verbs: <ul><li>look<li>listen<li>touch<li>smell<li>taste<li>open<li>take</ul><br>Combine these with the various objects you "see" in these rooms. For example, try "look bed", "touch fan" or maybe open door when you're ready to go to a new room. You're goal is to find the way out of this apartment.`
+     },
         description: `A small, tiled room. It smells of dank and something far worse. behind you is the <em>door</em> back to the living room. A filthy <em>bathtub</em>, a suspect <em>toilet</em>, a dripping <em>sink</em> and a <em>mirror</em> that looks like it opens as a cabinet.`,
 
         look: `A small, tiled room. It smells of dank and something far worse. behind you is the door back to the living room. A filthy bathtub, a suspect toilet, a dripping sink and a mirror that looks like it opens as a cabinet.`,
