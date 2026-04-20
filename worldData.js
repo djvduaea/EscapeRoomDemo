@@ -19,9 +19,7 @@ export const worldData = {
 
     //3. Rooms, look and description doubled for now
     bedroom: {
-     me: {
-      look: `you can input commands using the following verbs: <ul><li>look<li>listen<li>touch<li>smell<li>taste<li>open<li>take</ul><br>Combine these with the various objects you "see" in these rooms. For example, try "look bed", "touch fan" or maybe open door when you're ready to go to a new room. You're goal is to find the way out of this apartment.`
-     },
+     
       description: `You're back in the bedroom with the familiar door, fan and bed to look at.`,
         Look: `You're back in the bedroom with the familiar door, fan and bed to look at.`,
         walls: {
@@ -80,6 +78,9 @@ export const worldData = {
                 return `You push the heavy door open and walk into the living room.`;
             },
         },
+     me: {
+      look: `you can input commands using the following verbs: <ul><li>look<li>listen<li>touch<li>smell<li>taste<li>open<li>take</ul><br>Combine these with the various objects you "see" in these rooms. For example, try "look bed", "touch fan" or maybe open door when you're ready to go to a new room. You're goal is to find the way out of this apartment.`
+     },
     },
 
 livingroom: {
