@@ -79,7 +79,7 @@ export const worldData = {
             },
         },
      me: {
-      look: `you can input commands using the following verbs: <ul><li>look<li>listen<li>touch<li>smell<li>taste<li>open<li>take</ul><br>Combine these with the various objects you "see" in these rooms. For example, try "look bed", "touch fan" or maybe open door when you're ready to go to a new room. You're goal is to find the way out of this apartment.`
+      help: `you can input commands using the following verbs: <ul><li>look<li>listen<li>touch<li>smell<li>taste<li>open<li>take</ul><br>Combine these with the various objects you "see" in these rooms. For example, try "look bed", "touch fan" or maybe open door when you're ready to go to a new room. You're goal is to find the way out of this apartment.`
      },
     },
 
@@ -176,7 +176,10 @@ livingroom: {
                 return `It's locked. you're going to have to find a key or something to open it with.`;
             }
         }
-    }
+    },
+me: {
+      help: `you can input commands using the following verbs: <ul><li>look<li>listen<li>touch<li>smell<li>taste<li>open<li>take</ul><br>Combine these with the various objects you "see" in these rooms. For example, try "look bed", "touch fan" or maybe open door when you're ready to go to a new room. You're goal is to find the way out of this apartment.`
+     },
 },
 
 bathroom: {
@@ -244,6 +247,9 @@ taste: `There's are worse things here you could taste to be fair.`
             smell: `Smells better than the toilet but not as good as the door.`,
             taste: `You're so dehydrated that this trickle of filth comes as a welcome relief.`
         },
+ me: {
+      help: `you can input commands using the following verbs: <ul><li>look<li>listen<li>touch<li>smell<li>taste<li>open<li>take</ul><br>Combine these with the various objects you "see" in these rooms. For example, try "look bed", "touch fan" or maybe open door when you're ready to go to a new room. You're goal is to find the way out of this apartment.`
+     },
       },
 
 //4. closing
